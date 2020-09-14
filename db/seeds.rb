@@ -37,3 +37,5 @@ Dish.all.each do |dish|
     end
 
 end
+
+Dish.create(name: "dish_11", restaurant: Restaurant.find(4))
